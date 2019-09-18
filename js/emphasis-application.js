@@ -8,10 +8,6 @@ function EmphasisApplication() {
 
   this.text_input = document.getElementById("text");
   this.text_input.focus();
-
-  window.onbeforeunload = function() {
-    return false;
-  }
 }
 
 EmphasisApplication.prototype = Object.create(EmphasisApplication.prototype);
