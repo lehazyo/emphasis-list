@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/emphasis-list.css" />
   <title>Буквы с ударениями</title>
 </head>
 <body>
@@ -11,12 +11,23 @@
       <h1>Буквы с ударениями</h1>
     </div>
 
-    <div class="text__wrapper">
-      <div class="text__header">
-        Здесь можно ввести свой текст и вставить в него буквы с ударениями, если хочется скопировать всё разом
+    <div class="inputs__wrapper">
+      <div class="symbol__wrapper">
+        <div class="text__header">
+          Добавить к&nbsp;символу ударение
+        </div>
+        <div class="text__input_wrapper">
+          <input id="symbol" maxlength="1" />
+        </div>
       </div>
-      <div class="text__textarea_wrapper">
-        <textarea id="text"></textarea>
+
+      <div class="text__wrapper">
+        <div class="text__header">
+          Здесь можно ввести свой текст и вставить в него буквы с ударениями, если хочется скопировать всё разом
+        </div>
+        <div class="text__textarea_wrapper">
+          <textarea id="text"></textarea>
+        </div>
       </div>
     </div>
 
@@ -68,6 +79,6 @@
     </div>
   </div>
 
-<script src="js/emphasis-application.js"></script>
+<script src="js/emphasis-list.js"></script>
 </body>
 </html>

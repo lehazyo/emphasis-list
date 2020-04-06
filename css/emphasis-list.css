@@ -112,11 +112,27 @@ INPUT {
   background-color: #eeeeee;
 }
 
-.text__wrapper {
+.symbol__wrapper {
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  margin: 0 26px 0 0;
+}
 
+#symbol {
+  width: 100%;
+  font-size: 48px;
+  text-align: center;
+}
+
+.text__wrapper {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 130px);
 }
 
 .text__header {
+  font-size: 16px;
   margin: 0 0 10px 0;
 }
 
